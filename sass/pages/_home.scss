@@ -11,6 +11,10 @@
     height: 7rem;
     background: #fff;
     border-bottom: $Grey-dark-2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
 }
 
 .content{
@@ -19,7 +23,7 @@
 }
 
 .sidebar{
-    background-color: $-Grey-dark-1;
+    background-color: $Grey-dark-1;
 
     flex:0 0 18%; // read flex grow, flex shrink, flex basis
 }
